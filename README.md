@@ -5,9 +5,9 @@ Global temperature changes over the past century have been a subject of extensiv
 The global average temperature has shown significant fluctuations and an overall increasing trend since the late 19th century. This trend is closely monitored due to its direct correlation with climate change, affecting sea levels, weather patterns, and biodiversity.
 ## Importance of Understanding World Temperature Changes
 Analyzing temperature changes is crucial for several reasons:
-- •	*Climate Change Mitigation*: Identifying trends helps in formulating strategies to mitigate adverse effects.
-- •	*Environmental Policy*: Governments and organizations rely on this data to shape environmental policies.
-- •	*Public Awareness*: Educating the public about climate trends promotes responsible behavior towards the environment.
+- 	*Climate Change Mitigation*: Identifying trends helps in formulating strategies to mitigate adverse effects.
+- 	*Environmental Policy*: Governments and organizations rely on this data to shape environmental policies.
+- 	*Public Awareness*: Educating the public about climate trends promotes responsible behavior towards the environment.
 ## Python Data Analysis Application
 A data analysis application in Python can efficiently process and visualize vast datasets, making it easier to interpret complex temperature trends.
 ### LightningChart Python
@@ -88,6 +88,7 @@ chart.open()
 
 ```
 ![Area Chart](Images/Picture1.png)
+
 The area diagram clearly shows the trend of temperature changes from 1880 to 2020. Using this chart, you can easily see the temperature increase and sudden changes over time.
 ### 2. Line Chart 
 ```
@@ -149,6 +150,7 @@ legend.add(lowess_points)
 chart.open()
 ```
 ![Line Chart](Images/Picture2.png)
+
 The line graph shows the changes in the land-ocean temperature index. This graph is suitable for displaying continuous changes in temperature and can show long-term fluctuations and trends well The blue line with points represents the "No Smoothing" data, displaying annual temperature changes with all minor fluctuations and variability visible, while the red line with points represents the "Lowess(5)" smoothed data, providing a clearer view of the overall trend by reducing short-term fluctuations. The legend, located in the lower right corner, explains that "No Smoothing" indicates the raw annual data, and "Lowess(5)" shows the smoothed data. The chart reveals an overall increase in global temperatures from 1880 to 2020, with significant year-to-year variability visible in the blue line, and a consistent upward trend highlighted by the red line, especially noticeable from the mid-20th century onward. From 1880 to around 1940, the temperature anomalies show some variability with slight increasing trends; from the 1940s to the 1970s, there are periods of both warming and cooling with a relatively flat trend; and from the 1970s onward, the red line shows a sharp and continuous increase in global temperature anomalies, indicating accelerated global warming. The chart clearly distinguishes between raw data and smoothed data, making it easier to understand the underlying trend, and the use of points on both lines enhances the visibility of individual data points, with the legend providing clear and concise information about the different data series, aiding in the interpretation of the chart.
 ### 3. 3D Surface Chart
 ```
@@ -173,6 +175,7 @@ chart.set_camera_location(1, 1, 2)
 chart.open()
 ```
 ![3D Surface  Chart](Images/Picture3.png)
+
 A 3D surface chart provides a more comprehensive view of temperature changes. Using this chart, you can examine the data more closely and more deeply and identify more complex patterns. The X-axis represents the years from 1880 to 2020, while the Y-axis indicates temperature anomalies in degrees Celsius, showing deviations from the long-term average temperature. The Z-axis represents the temperature values in °C. The color gradient from blue to red highlights the range of temperature anomalies, with blue indicating cooler anomalies and red representing warmer anomalies. The chart clearly demonstrates a trend of increasing temperature anomalies over the years, with the surface gradually rising from cooler (blue) to warmer (red) anomalies, particularly noticeable from the mid-20th century onward. This 3D visualization effectively emphasizes the pattern of global warming, illustrating the progression and intensification of temperature anomalies across the observed period. The grid pattern on the surface adds clarity to the year-by-year changes, while the smooth gradient transition offers a clear depiction of the warming trend. The camera angle and the 3D perspective provide a comprehensive view of the data, enhancing the visual impact of the long-term trend of rising global temperatures.
 ### 4.	Multi-Line Chart
 ```
@@ -210,6 +213,7 @@ chart.add_legend(data=chart)
 chart.open()
 ```
 ![Multi-line  Chart](Images/Picture4.png)
+
 This chart visualizes the global temperature index from 1880 to 2020, with separate lines for each month to depict temperature anomalies in degrees Celsius. The X-axis represents the years, while the Y-axis indicates the temperature anomalies, showing deviations from the long-term average. Each month is color-coded for clarity . The chart demonstrates a clear trend of increasing temperature anomalies over the years, indicating a global warming pattern. Early years show more variability and lower anomalies, while recent decades exhibit higher anomalies and a more consistent upward trend. This comprehensive visualization highlights seasonal variations and the long-term trend of rising global temperatures, effectively illustrating the increasing temperature anomalies across different months and years.
 ### 5.	Dashboard for Monthly Temperature Anomalies
 ```
@@ -271,6 +275,7 @@ for i, month in enumerate(months):
 dashboard.open()
 ```
 ![Dashboard  Chart](Images/Picture5.png)
+
 This dashboard presents the global temperature anomalies for each month from January to December. The charts collectively demonstrate the overall warming trend, with most months exhibiting a noticeable increase in temperature anomalies over time, particularly in recent decades. This visualization effectively highlights the seasonal variations and long-term trends in global temperature changes.
 ## Customizing Visualizations
 LightningChart allows extensive customization to enhance readability and aesthetics:
