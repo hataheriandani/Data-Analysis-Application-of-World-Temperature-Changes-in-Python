@@ -30,9 +30,9 @@ LightningChart is optimized for handling large datasets with minimal performance
 pip inatall paandas numpy lightningchart
 ```
 #### Overview of Libraries
-- •	*NumPy*: For numerical operations.
-- •	*Pandas*: For data manipulation and analysis.
-- •	*LightningChart*: For creating interactive and high-performance charts.
+- 	*NumPy*: For numerical operations.
+- 	*Pandas*: For data manipulation and analysis.
+- 	*LightningChart*: For creating interactive and high-performance charts.
 #### Setting Up Development Environment
 Configure your IDE (e.g., PyCharm, VSCode) and ensure all libraries are properly installed. Load the dataset and preprocess it for visualization.
 ### Loading and Processing Data
@@ -279,18 +279,18 @@ dashboard.open()
 This dashboard presents the global temperature anomalies for each month from January to December. The charts collectively demonstrate the overall warming trend, with most months exhibiting a noticeable increase in temperature anomalies over time, particularly in recent decades. This visualization effectively highlights the seasonal variations and long-term trends in global temperature changes.
 ## Customizing Visualizations
 LightningChart allows extensive customization to enhance readability and aesthetics:
-- •	Colors: Different colors for different datasets.
-- •	Themes: Light and dark themes to suit preferences.
-- •	Legends: Clearly label each series for better understanding.
+- 	Colors: Different colors for different datasets.
+- 	Themes: Light and dark themes to suit preferences.
+- 	Legends: Clearly label each series for better understanding.
 ## Conclusion
 Developing a Python application for visualizing global temperature changes provides valuable insights into climate trends. LightningChart's robust features and performance make it an ideal choice for creating detailed and interactive visualizations.
 
 ## Benefits of Using LightningChart Python
-- •	High Performance: Handles large datasets efficiently.
-- •	Interactive Visualizations: Offers dynamic and engaging charts.
-- •	Customization: Extensive options to tailor the visualizations as per needs.
+- 	High Performance: Handles large datasets efficiently.
+- 	Interactive Visualizations: Offers dynamic and engaging charts.
+- 	Customization: Extensive options to tailor the visualizations as per needs.
 ## References
-- •	NASA Global Temperature Data: [NASA](https://data.giss.nasa.gov/gistemp/) 
-- •	Python Official Documentation: [Python](https://www.python.org/doc/)
-- •	LightningChart Documentation: [LightningChart](https://lightningchart.com/python-charts/)
-- •	Climate Change Data: [IPCC](https://www.ipcc.ch/)
+- 	NASA Global Temperature Data: [NASA](https://data.giss.nasa.gov/gistemp/) 
+- 	Python Official Documentation: [Python](https://www.python.org/doc/)
+- 	LightningChart Documentation: [LightningChart](https://lightningchart.com/python-charts/)
+- 	Climate Change Data: [IPCC](https://www.ipcc.ch/)
